@@ -1,0 +1,16 @@
+body {
+	background-color: $grey-2 !important;
+}
+.nav-tabs .nav-item .nav-link.active {
+	border-bottom: 2px solid $primary;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	background-color: $grey-2; 
+	border-color: $grey-2;
+}
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+	border-color: $grey-2;
+	border-bottom: 2px solid $primary;
+}
